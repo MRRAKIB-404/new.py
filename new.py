@@ -5,25 +5,29 @@ import os, sys, time, datetime, random, hashlib, re, threading, json, urllib, co
 os.system('rm -rf .txt')
 os.system('clear')
 logo1 ="""
-    ____  ___    __ __ ________ 
-   / __ \/   |  / //_//  _/ __ )
-  / /_/ / /| | / ,<   / // __  |
- / _, _/ ___ |/ /| |_/ // /_/ / 
-/_/ |_/_/  |_/_/ |_/___/_____/  
-                                
+    ____  ____  _  __ _  ____ 
+/  __\/  _ \/ |/ // \/  _ \
+|  \/|| / \||   / | || | //
+|    /| |-|||   \ | || |_\\
+\_/\_\\_/ \|\_|\_\\_/\____/"""
+                             
+                                                  
 
-"""
-                                                           
+
                                                            
                                                           
 print """
 
-    ____  ___    __ __ ________ 
-   / __ \/   |  / //_//  _/ __ )
-  / /_/ / /| | / ,<   / // __  |
- / _, _/ ___ |/ /| |_/ // /_/ / 
-/_/ |_/_/  |_/_/ |_/___/_____/  
-                                """
+     
+.______          ___       __  ___  __  .______   
+|   _  \        /   \     |  |/  / |  | |   _  \  
+|  |_)  |      /  ^  \    |  '  /  |  | |  |_)  | 
+|      /      /  /_\  \   |    <   |  | |   _  <  
+|  |\  \----./  _____  \  |  .  \  |  | |  |_)  | 
+| _| `._____/__/     \__\ |__|\__\ |__| |______/  
+                                                  
+
+                                
 
 
 
@@ -39,12 +43,12 @@ for n in range(10000):
 try:
     import requests
 except ImportError:
-    os.system('pip2 install requests')
+    os.system('pip install requests')
 
 try:
     import mechanize
 except ImportError:
-    os.system('pip2 install mechanize')
+    os.system('pip install mechanize')
 
 from multiprocessing.pool import ThreadPool
 from requests.exceptions import ConnectionError
@@ -82,12 +86,15 @@ def jalan(z):
         time.sleep(0.1)
 
 
-logo = """
-    ____  ___    __ __ ________ 
-   / __ \/   |  / //_//  _/ __ )
-  / /_/ / /| | / ,<   / // __  |
- / _, _/ ___ |/ /| |_/ // /_/ / 
-/_/ |_/_/  |_/_/ |_/___/_____/  
+logo = 
+      ____  ____  _  __ _  ____ 
+/  __\/  _ \/ |/ // \/  _ \
+|  \/|| / \||   / | || | //
+|    /| |-|||   \ | || |_\\
+\_/\_\\_/ \|\_|\_\\_/\____/
+                           
+                                                  
+                                            
                                 
 
 
